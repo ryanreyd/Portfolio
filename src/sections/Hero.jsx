@@ -21,15 +21,15 @@ const Hero = () => {
        justify-center rounded-xl gap-5 p-5">
         <div className='grid grid-cols-6 gap-5 max-xl:flex max-xl:flex-col'>
           <h1 className="col-span-3 text-4xl flex-shrink lg:min-w-fit max-md:text-3xl 
-            leading-normal font-palanquin font-light
+            leading-normal font-palanquin font-medium tracking-wide
             p-5 rounded-lg w-full relative">
-              Hi there, I'm
+             <span className='px-4'> Hi!</span><span className='bg-blood-red px-4'>I'am</span>
             <br/>
-            <span className="font-bold bg-blood-red text-white">
-              Ryan Rey Dumpasan
+            <span className=" px-4 font-bold text-white">
+              Ryan Rey
             </span>
             <br/>
-            <span className="">Frontend Developer</span>
+            <span className=""><span className='bg-blood-red px-4'>Aspiring</span> Web Developer</span>
           </h1>
           <div className='col-span-3'>
             <Card> {/* description */}

@@ -17,7 +17,7 @@ const Nav = () => {
           />
         </a> */}
         <div>
-          <h1>
+          <h1 className="text-white">
             ryandumpasan@gmail.com
           </h1>
         </div>
@@ -33,7 +33,7 @@ const Nav = () => {
           ))}
         </ul>
         <div className='max-lg:hidden '>
-           <Button label="Resume" variant='red-900'/>
+           <Button label="Resume" variant="blood-red"/>
         </div>
         <div className='hidden max-lg:block'>
           <img src={hamburger} alt='hamburger icon' width={25} height={25} />
